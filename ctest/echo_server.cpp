@@ -1,8 +1,10 @@
+#include "basic_server.h"
 
-class EchoServer::BasicServer()
+class EchoServer:BasicServer()
 {
 };
 
 int main()
 {
+	return 0;
 }

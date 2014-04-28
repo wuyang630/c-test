@@ -1,14 +1,6 @@
-/*
-class BasicServer
+#include "basic_server.h"
+
+int BasicServer::server_init()
 {
-	public:
-		BasicServer(){};
-		BasicServer(uint16_t _port):local_port(_port){};
-		server_init();
-		get_req();
-		handle_msg();
-		send_rsp();
-	private:
-		local_port;
-};
-*/
+	return 0;
+}
